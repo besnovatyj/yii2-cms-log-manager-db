@@ -13,7 +13,8 @@
   "minimum-stability": "stable",
   "extra": {
     "moduleClass": "Besnovatyj\\LogDbManager\\Module",
-    "moduleId": "LogDbManager"
+    "moduleId": "LogDbManager",
+    "bescms": { "kind": "module" }
   },
   "keywords": [
     "yii2",
