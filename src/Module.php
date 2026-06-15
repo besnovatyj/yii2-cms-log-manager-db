@@ -7,10 +7,10 @@
 namespace Besnovatyj\LogDbManager;
 
 use common\components\module\CmsModule;
-use modules\modmanNew\contract\DeclaresModule;
-use modules\modmanNew\contract\ProvidesAdminMenu;
-use modules\modmanNew\contract\ProvidesBootstrap;
-use modules\modmanNew\contract\ProvidesMigrations;
+use modules\modman\contract\DeclaresModule;
+use modules\modman\contract\ProvidesAdminMenu;
+use modules\modman\contract\ProvidesBootstrap;
+use modules\modman\contract\ProvidesMigrations;
 
 class Module extends CmsModule implements
     DeclaresModule, ProvidesAdminMenu,
