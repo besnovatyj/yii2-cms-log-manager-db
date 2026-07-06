@@ -8,7 +8,7 @@
 use Besnovatyj\Backend\Widgets\grid\ActionColumn;
 use Besnovatyj\LogDbManager\entities\DbLog;
 use Besnovatyj\LogDbManager\helpers\DbLogHelper;
-use modules\user\components\Helper;
+use Besnovatyj\User\components\Helper;
 use Besnovatyj\Backend\Widgets\pagination\LinkPager;
 use yii\data\ArrayDataProvider;
 use yii\grid\GridView;
