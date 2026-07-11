@@ -8,7 +8,7 @@
 use Besnovatyj\Backend\Widgets\grid\ActionColumn;
 use Besnovatyj\LogDbManager\entities\DbLog;
 use Besnovatyj\LogDbManager\helpers\DbLogHelper;
-use Besnovatyj\User\components\Helper;
+use Besnovatyj\Kernel\security\AccessHelper;
 use Besnovatyj\Backend\Widgets\pagination\LinkPager;
 use yii\data\ArrayDataProvider;
 use yii\grid\GridView;
@@ -83,7 +83,7 @@ $this->params['breadcrumbs'][] = 'Logs';
                     'format' => 'raw',
                 ],
                 ['class' => ActionColumn::class,
-                    'template' => Helper::filterActionColumn(['view', 'update', 'delete',]),
+                    'template' => AccessHelper::filterActionColumn(['view', 'update', 'delete',]),
                 ],
             ],
         ]); ?>
